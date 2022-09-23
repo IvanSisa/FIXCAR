@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #4962a3;
+  width: 100%;
+}
+.flex{
+  display: flex;
+}
+.updateData{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.addNewItem{
+  width: 100%;
+  margin: auto;
+  
+}
+.listServices{
+  margin: 0px 30px;
+  background: #e1ecfc;
+  input{
+    width: 30px;
+  }
+}
+.group{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  
+  align-items: baseline;
+  p{
+    color: black;
+    padding-left: 10px;
+  }
+  input{
+    margin-right: 0;
+    width: 55px;
+    padding-left: 10%;
+    background-color: white;
+  }
+  width: 80%;
+  .trash{
+    color: red;
+  }
+  .prices{
+    display: flex;
+    width: 30%;
+  }
+  .nameService{
+    width: 70%;
+  }
+}
+.sendChanges{
+  
+}
+.center{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+}
+.buttonMyGarage{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+}
+.borrar{
+  color: white;
+  background-color: #eb3c10;
+  cursor: pointer;
+}
+.formPersonal{
+  background-image: url("../../../images/capot.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.garages-prices{
+  background-image: url("../../../images/lambo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 0%;
+  padding-top: 50px;
+  color: white;
+  padding-bottom: 100px;
+  border-radius: 0 0 30px 30px;
+}
+
+
